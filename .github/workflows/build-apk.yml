@@ -65,9 +65,9 @@ jobs:
 
       - name: Set App Version Code
         run: |
-          # Bumping version code to 2 to fix Google Play upload error
-          sed -i -E 's/versionCode [0-9]+/versionCode 2/' android/app/build.gradle
-          sed -i -E 's/versionName "[^"]+"/versionName "1.0.2"/' android/app/build.gradle
+          # Bumping version code to 3 for the new Google Play release
+          sed -i -E 's/versionCode [0-9]+/versionCode 3/' android/app/build.gradle
+          sed -i -E 's/versionName "[^"]+"/versionName "1.0.3"/' android/app/build.gradle
 
       - name: Fix Android Hardware Back Button
         run: |
