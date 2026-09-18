@@ -10,7 +10,7 @@ env:
   APP_NAME: "Hali Pro"
   PACKAGE_NAME: "com.halipro.app"
   # Replace with the actual AdMob App ID for Hali Pro if different
-  ADMOB_APP_ID: "ca-app-pub-1118823918279022~8410967279" 
+  ADMOB_APP_ID: "ca-app-pub-1118823918279022~6261114951" 
 
 jobs:
   build:
